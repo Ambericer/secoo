@@ -1,1 +1,1 @@
-web: python dealscraper/main.py
+web: gunicorn main:app
